@@ -1,0 +1,8 @@
+{
+  "short_name": "Expenso Privacy",
+  "name": "Expenso Privacy Policy",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#16a34a",
+  "background_color": "#ffffff"
+}

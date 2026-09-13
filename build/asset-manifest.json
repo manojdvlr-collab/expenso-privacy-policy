@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expenso-privacy-policy/static/css/main.b8c5ac41.css",
+    "main.js": "/expenso-privacy-policy/static/js/main.8104c3bd.js",
+    "index.html": "/expenso-privacy-policy/index.html",
+    "main.b8c5ac41.css.map": "/expenso-privacy-policy/static/css/main.b8c5ac41.css.map",
+    "main.8104c3bd.js.map": "/expenso-privacy-policy/static/js/main.8104c3bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8c5ac41.css",
+    "static/js/main.8104c3bd.js"
+  ]
+}
