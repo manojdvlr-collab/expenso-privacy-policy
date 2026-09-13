@@ -177,9 +177,64 @@ const App: React.FC = () => {
           </ul>
         </section>
 
-        {/* 6. Data Deletion */}
+        {/* 6. Account Deletion */}
+        <section className="section" id="account-deletion">
+          <h2 className="section-title">6. Account Deletion</h2>
+          <p>
+            You can permanently delete your Expenso account and all associated data
+            directly from within the app.
+          </p>
+
+          <h3 className="subsection-title">How to Delete Your Account (In-App)</h3>
+          <div className="deletion-steps-box">
+            <p className="deletion-path">
+              <strong>Settings → Danger Zone → Delete Account</strong>
+            </p>
+            <p>Tapping <strong>"Delete Account"</strong> will:</p>
+            <ol className="deletion-steps-list">
+              <li>Show a confirmation dialog explaining the action is permanent</li>
+              <li>Ask you to re-verify your identity via Google Sign-In</li>
+              <li>Permanently delete all cloud data stored in Firebase Firestore</li>
+              <li>Clear all locally stored data on the device</li>
+              <li>Delete the Firebase Authentication account</li>
+            </ol>
+          </div>
+
+          <h3 className="subsection-title">What Data Is Deleted</h3>
+          <p>All of the following is permanently removed upon account deletion:</p>
+          <ul>
+            <li>All expense and income transactions</li>
+            <li>All custom categories</li>
+            <li>All credit card records (name, last 4 digits, limit)</li>
+            <li>All upcoming bills</li>
+            <li>All trip-splitting data (trips, members, expenses, settlements)</li>
+            <li>App preferences and settings</li>
+            <li>The Firebase Authentication account linked to your Google account</li>
+            <li>All cloud-synced data stored in Firebase Firestore</li>
+          </ul>
+
+          <h3 className="subsection-title">Data Retention</h3>
+          <p className="highlight-box">
+            We do <strong>not</strong> retain any personal data after account deletion.
+            All data is permanently and immediately removed from Firebase Firestore and
+            your device. This action is <strong>irreversible</strong>.
+          </p>
+
+          <h3 className="subsection-title">Can't Access the App?</h3>
+          <p>
+            If you are unable to access the app to delete your account, you can request
+            deletion by emailing us at{' '}
+            <a href="mailto:manojdvlr@gmail.com" className="policy-link">
+              manojdvlr@gmail.com
+            </a>
+            . Include the email address associated with your Google account. We will
+            process your request within <strong>7 days</strong>.
+          </p>
+        </section>
+
+        {/* 7. Data Deletion */}
         <section className="section">
-          <h2 className="section-title">6. Data Deletion</h2>
+          <h2 className="section-title">7. Data Deletion</h2>
           <p>
             You have full control over your data:
           </p>
@@ -199,9 +254,9 @@ const App: React.FC = () => {
           </ul>
         </section>
 
-        {/* 7. Children's Privacy */}
+        {/* 8. Children's Privacy */}
         <section className="section">
-          <h2 className="section-title">7. Children's Privacy</h2>
+          <h2 className="section-title">8. Children's Privacy</h2>
           <p>
             Expenso is not directed to children under the age of 13. We do not knowingly
             collect personal information from children under 13. If you believe a child
@@ -210,9 +265,9 @@ const App: React.FC = () => {
           </p>
         </section>
 
-        {/* 8. Changes to This Policy */}
+        {/* 9. Changes to This Policy */}
         <section className="section">
-          <h2 className="section-title">8. Changes to This Policy</h2>
+          <h2 className="section-title">9. Changes to This Policy</h2>
           <p>
             We may update this Privacy Policy from time to time as the app evolves. When
             we do, we will post the revised policy on this page with an updated effective
@@ -221,9 +276,9 @@ const App: React.FC = () => {
           </p>
         </section>
 
-        {/* 9. Contact Us */}
+        {/* 10. Contact Us */}
         <section className="section">
-          <h2 className="section-title">9. Contact Us</h2>
+          <h2 className="section-title">10. Contact Us</h2>
           <p>
             If you have any questions, concerns, or requests regarding this Privacy
             Policy or your data, please contact us:
@@ -245,6 +300,9 @@ const App: React.FC = () => {
       <footer className="footer">
         <p>© {new Date().getFullYear()} Expenso. All rights reserved.</p>
         <p className="footer-sub">Last updated: September 13, 2026</p>
+        <p className="footer-sub">
+          <a href="#account-deletion" className="footer-link">Account Deletion</a>
+        </p>
       </footer>
     </div>
   );

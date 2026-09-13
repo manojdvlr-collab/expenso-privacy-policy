@@ -257,3 +257,51 @@ body {
     font-size: 1.05rem;
   }
 }
+
+/* ===========================
+   Account Deletion Steps Box
+=========================== */
+.deletion-steps-box {
+  background: #f0fdf4;
+  border: 1.5px solid #86efac;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 14px 0 20px;
+}
+
+.deletion-path {
+  font-size: 1rem;
+  color: #166534;
+  background: #dcfce7;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px !important;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.2px;
+}
+
+.deletion-steps-list {
+  padding-left: 22px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.deletion-steps-list li {
+  margin-bottom: 6px;
+  color: #166534;
+}
+
+/* ===========================
+   Footer Link
+=========================== */
+.footer-link {
+  color: #6ee7b7;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #a7f3d0;
+}

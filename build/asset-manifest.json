@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/expenso-privacy-policy/static/css/main.b8c5ac41.css",
-    "main.js": "/expenso-privacy-policy/static/js/main.45fea41c.js",
+    "main.css": "/expenso-privacy-policy/static/css/main.ed6df610.css",
+    "main.js": "/expenso-privacy-policy/static/js/main.e46f616f.js",
     "index.html": "/expenso-privacy-policy/index.html",
-    "main.b8c5ac41.css.map": "/expenso-privacy-policy/static/css/main.b8c5ac41.css.map",
-    "main.45fea41c.js.map": "/expenso-privacy-policy/static/js/main.45fea41c.js.map"
+    "main.ed6df610.css.map": "/expenso-privacy-policy/static/css/main.ed6df610.css.map",
+    "main.e46f616f.js.map": "/expenso-privacy-policy/static/js/main.e46f616f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c5ac41.css",
-    "static/js/main.45fea41c.js"
+    "static/css/main.ed6df610.css",
+    "static/js/main.e46f616f.js"
   ]
 }
