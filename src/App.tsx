@@ -234,7 +234,7 @@ const App: React.FC = () => {
             <p>
               <strong>Email:</strong>{' '}
               <a href="mailto:manojdvlr@gmail.com" className="policy-link">
-                your-email@example.com
+                manojdvlr@gmail.com
               </a>
             </p>
           </div>

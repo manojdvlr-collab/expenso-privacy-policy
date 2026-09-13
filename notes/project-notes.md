@@ -2,6 +2,10 @@
 
 ---
 
+
+website link :  https://manojdvlr-collab.github.io/expenso-privacy-policy
+
+
 ## Why This Website Exists
 
 Google Play Store **requires** every app that collects user data to have a publicly accessible
